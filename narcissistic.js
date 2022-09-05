@@ -13,11 +13,11 @@ function narcissistic_nums(value){
     }
 
     if(sum == value){
-        console.log(true)
+        console.log(`${value} is a narcissistic number`);
+        // console.log(true)
     } else {
         console.log(false)
     }
-
 }
 narcissistic_nums(153)
 narcissistic_nums(371)
